@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>¡Ayudemos a las tortugas! | Reciclar y reutilizar bolsas de plástico</title>
+<meta name="description" content="Proyecto de Ciencias para la Ciudadanía sobre el impacto de las bolsas plásticas en las tortugas marinas de Chile.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header class="top">
+  <h1><span>¡Ayudemos a las tortugas!</span><small>aprendamos a reciclar y reutilizar las bolsas de plástico</small></h1>
+</header>
+
+<div class="card">
+  <div class="band"><h2 id="band">Inicio</h2></div>
+
+  <main>
+    <section id="inicio" class="panel on" role="tabpanel">
+      <div class="grid">
+        <div>
+          <h3 class="h"><i>✦</i> Problemática</h3>
+          <p class="note"><b>El impacto de las bolsas plásticas en las tortugas marinas de Chile.</b> Las bolsas que llegan al mar se parecen a las medusas y las tortugas las confunden con su alimento. Al tragarlas pueden sufrir bloqueos en el intestino, desnutrición y morir.</p>
+          <h3 class="h"><i>✦</i> Introducción</h3>
+          <p class="note">Esta página es parte de la Feria Científica de Ciencias para la Ciudadanía (4° Medio). Aquí podrás entender el problema, ver un vídeo, jugar y reflexionar sobre qué podemos hacer como personas y como sociedad.</p>
+        </div>
+        <figure class="photo"><img src="img/tortuga-bolsa.jpg" alt="Tortuga marina a punto de comer una bolsa de plástico que flota en el agua"></figure>
+      </div>
+      <h3 class="h"><i>✦</i> Acceso a las secciones</h3>
+      <div class="cards3">
+        <button class="go g1" data-go="video"><b class="ic">▶</b><span><strong>Vídeo</strong><small>Mira el vídeo</small></span><em>›</em></button>
+        <button class="go g2" data-go="juego"><b class="ic">🎮</b><span><strong>Juego</strong><small>Jugar y aprender</small></span><em>›</em></button>
+        <button class="go g3" data-go="info"><b class="ic">ⓘ</b><span><strong>Más información</strong></span><em>›</em></button>
+      </div>
+    </section>
+
+    <section id="video" class="panel" role="tabpanel">
+      <h3 class="h"><i>✦</i> Vídeo de concientización</h3>
+      <div class="media">
+        <video controls playsinline preload="metadata" poster="img/poster-video.jpg"><source src="media/video-concientizacion.mp4" type="video/mp4"></video>
+        <div class="ph"><b>🎬</b><p>Aquí irá el vídeo de 2 a 3 minutos.<br><small>Guárdalo como <code>media/video-concientizacion.mp4</code></small></p></div>
+      </div>
+      <div class="chips"><span>¿Qué está ocurriendo?</span><span>¿Por qué debería importarnos?</span><span>¿Qué podría ocurrir si el problema continúa?</span></div>
+      <button class="go g2 inline" data-go="juego"><b class="ic">🎮</b><span><strong>¡Ahora a jugar!</strong></span><em>›</em></button>
+    </section>
+
+    <section id="juego" class="panel" role="tabpanel">
+      <h3 class="h"><i>✦</i> Guía a la tortuga</h3>
+      <p class="note">Lleva su comida natural hacia ella y clasifica la basura en el contenedor correcto antes de que se acabe el tiempo.</p>
+      <div class="gamebox" id="gamebox">
+        <div class="gbar"><button class="pill" id="back">← Volver</button><span>Guardián del mar</span></div>
+        <iframe id="frame" title="Juego: Guardián del mar" allow="autoplay; fullscreen"></iframe>
+      </div>
+      <div class="row">
+        <button class="pill" id="full">⛶ Pantalla completa</button>
+        <button class="pill" id="reload">↻ Recargar juego</button>
+      </div>
+    </section>
+
+    <section id="info" class="panel" role="tabpanel">
+      <h3 class="h" id="b"><i>✦</i> Conociendo el problema</h3>
+      <div class="qa">
+        <div><b>¿Qué es?</b><p>Las bolsas plásticas son residuos de un solo uso hechos con plástico derivado del petróleo. Tardan muchísimo en degradarse y, en el mar, se rompen en pedazos cada vez más pequeños (microplásticos). Para una tortuga, una bolsa que flota se parece a una medusa, y al tragarla puede bloquearle el intestino.</p></div>
+        <div><b>¿Por qué ocurre?</b><p>Por el consumo masivo de bolsas desechables (antes de la ley, unas 200 por persona al año en Chile), la mala disposición de los residuos y el poco reciclaje y reutilización. Las bolsas llegan al mar desde ciudades, ríos y costas, y las corrientes las arrastran. Las tortugas que comen medusas, como la laúd y la olivácea, tienen más riesgo de confundirlas.</p></div>
+        <div><b>¿Dónde ocurre?</b><p>En el océano Pacífico y en la costa chilena. En Chile se registran cinco especies de tortugas marinas: laúd, verde, cabezona, olivácea y, en Rapa Nui, carey. No anidan en nuestras playas, pero la Corriente de Humboldt les ofrece alimento, y llegan sobre todo ejemplares juveniles y subadultos.</p></div>
+        <div><b>¿A quiénes o qué afecta?</b><p>A las tortugas marinas, que están protegidas y son muy vulnerables, y a otros animales marinos. También a los ecosistemas, donde las tortugas ayudan a controlar medusas y a mantener los pastos marinos, y a las personas que dependen de un mar sano.</p></div>
+      </div>
+
+      <h3 class="h" id="c"><i>✦</i> La evidencia</h3>
+      <div class="info">
+        <p><b>Se estima que hasta el 52 % de las tortugas marinas del mundo podría haber ingerido plástico u otros residuos.</b></p>
+        <div class="turtles" role="img" aria-label="Diez tortugas, cinco de ellas marcadas como que han ingerido residuos"><img src="img/tortuga-verde.png" alt=""><img src="img/tortuga-verde.png" alt=""><img src="img/tortuga-verde.png" alt=""><img src="img/tortuga-verde.png" alt=""><img src="img/tortuga-verde.png" alt=""><img class="bad" src="img/tortuga-verde.png" alt=""><img class="bad" src="img/tortuga-verde.png" alt=""><img class="bad" src="img/tortuga-verde.png" alt=""><img class="bad" src="img/tortuga-verde.png" alt=""><img class="bad" src="img/tortuga-verde.png" alt=""></div>
+        <p class="tiny">Cada dibujo representa 10 de cada 100 tortugas. Las grises son las que podrían haber ingerido residuos (≈ 52 %).</p>
+        <ul>
+          <li>Las tortugas jóvenes, en su etapa oceánica, son las de mayor riesgo, y la tortuga olivácea es la especie más expuesta.</li>
+          <li>De los residuos que ingieren las tortugas, el plástico es el más común.</li>
+          <li>Antes de la Ley 21.100 se usaban unos 3.400 millones de bolsas plásticas al año en Chile. Según el Ministerio del Medio Ambiente, la ley ha evitado más de 13.600 millones de bolsas.</li>
+          <li>En La Puntilla (Arica) se estimó una agregación de 514 tortugas verdes, pero la comunidad local percibe que los avistamientos han disminuido.</li>
+        </ul>
+      </div>
+      <div class="info range-box">
+        <p><b>Dónde se han registrado tortugas marinas en Chile</b></p>
+        <div class="range">
+          <div class="rbar" aria-hidden="true"></div>
+          <ul>
+            <li><b>Arica y Tarapacá (18° S)</b><span>Primeros registros. Aquí son más frecuentes, en aguas de 18,3 a 23,8 °C.</span></li>
+            <li><b>Centro de Chile</b><span>Presentes como áreas de alimentación y tránsito.</span></li>
+            <li><b>Magallanes (53° S)</b><span>Límite sur de los registros. Suelen ser ejemplares en mal estado.</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <h3 class="h" id="d"><i>✦</i> ¿Por qué debería importarnos?</h3>
+      <div class="duo">
+        <div class="box b1"><b>Consecuencias ambientales</b><ul><li>Una bolsa tragada puede bloquear el intestino de la tortuga y causarle la muerte.</li><li>Pueden sentirse llenas y morir de hambre.</li><li>Seis de las siete especies de tortugas marinas del mundo están en la Lista Roja de la UICN.</li><li>Sin tortugas se altera el equilibrio de medusas y pastos marinos.</li></ul></div>
+        <div class="box b2"><b>Consecuencias sociales</b><ul><li>Más residuos en playas y costas.</li><li>Posibles efectos en el turismo y en la pesca.</li><li>Los microplásticos podrían volver a nosotros por la cadena alimentaria.</li></ul></div>
+      </div>
+
+      <h3 class="h" id="h"><i>✦</i> ¿Qué podemos hacer?</h3>
+      <div class="note"><b>Lo que ya se hace.</b> La Ley 21.100 prohíbe entregar bolsas plásticas de comercio en todo Chile y las municipalidades deben fiscalizarla. El Ministerio del Medio Ambiente debe impulsar educación ambiental, y Sernapesca registra varamientos mientras universidades rehabilitan tortugas. Las tortugas marinas están protegidas por una veda extractiva.</div>
+      <div class="note warn"><b>Lo que aún falta.</b> Todavía se observa el uso de bolsas prohibidas, por el poco conocimiento de la ley y la falta de fiscalización, y queda pendiente qué hacer con los residuos cuando terminan su vida útil.</div>
+      <div class="trio">
+        <div class="box b3"><b>Personas</b><ul><li>Usar bolsas reutilizables.</li><li>Reutilizar las bolsas que ya tenemos.</li><li>Separar y reciclar los residuos.</li></ul></div>
+        <div class="box b4"><b>Comunidad y escuela</b><ul><li>Hacer campañas y limpiezas de playa.</li><li>Instalar puntos de reciclaje.</li><li>Conversar y compartir lo aprendido.</li></ul></div>
+        <div class="box b5"><b>Empresas y Estado</b><ul><li>Fiscalizar que la ley se cumpla.</li><li>Regular otros plásticos de un solo uso.</li><li>Responsabilidad de quienes producen los envases.</li></ul></div>
+      </div>
+      <p class="note warn">Las acciones individuales ayudan, pero no bastan: este problema también tiene dimensiones políticas, económicas, industriales e institucionales.</p>
+      <p class="ask">¿Hasta qué punto nuestras decisiones individuales contribuyen a este problema y dónde comienza la responsabilidad de las empresas, las instituciones y el Estado?</p>
+
+      <h3 class="h" id="i"><i>✦</i> Fuentes y referencias</h3>
+      <ul class="src">
+        <li><b>Ley 21.100</b>, que prohíbe la entrega de bolsas plásticas de comercio en todo el territorio nacional (2018). Biblioteca del Congreso Nacional de Chile. <a href="https://www.bcn.cl/leychile/navegar?idNorma=1121380" target="_blank" rel="noopener">bcn.cl</a></li>
+        <li><b>Ministerio del Medio Ambiente</b> de Chile. <a href="https://mma.gob.cl" target="_blank" rel="noopener">mma.gob.cl</a></li>
+        <li>Subsecretaría de Pesca y Acuicultura (2025). <i>Informe Técnico (R. PESQ.) N° 147: Renovación de veda extractiva de mamíferos marinos, tortugas marinas y pingüinos</i>. Valparaíso. <a href="https://www.subpesca.cl/portal/618/articles-129465_documento.pdf" target="_blank" rel="noopener">subpesca.cl</a></li>
+        <li><b>Servicio Nacional de Pesca y Acuicultura (Sernapesca)</b>: registro de varamientos y rescate de fauna marina. <a href="https://www.sernapesca.cl" target="_blank" rel="noopener">sernapesca.cl</a></li>
+        <li>Schuyler, Q., Hardesty, B. D., Wilcox, C. y Townsend, K. (2014). Global analysis of anthropogenic debris ingestion by sea turtles. <i>Conservation Biology, 28</i>(1), 129-139. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4204513" target="_blank" rel="noopener">pmc.ncbi.nlm.nih.gov</a></li>
+        <li>Schuyler, Q. A. y colaboradores (2016). Risk analysis reveals global hotspots for marine debris ingestion by sea turtles. <i>Global Change Biology, 22</i>(2), 567-576. <a href="https://pubmed.ncbi.nlm.nih.gov/26365568/" target="_blank" rel="noopener">pubmed.ncbi.nlm.nih.gov</a></li>
+        <li>Programa de las Naciones Unidas para el Medio Ambiente (PNUMA/UNEP). <i>Fatal attraction: Turtles and plastic</i>. <a href="https://www.unep.org/news-and-stories/story/fatal-attraction-turtles-and-plastic" target="_blank" rel="noopener">unep.org</a></li>
+        <li>La Tercera (2020). ¿Adiós a las bolsas plásticas? Cifras del Ministerio del Medio Ambiente sobre el uso de bolsas antes de la ley. <a href="https://www.latercera.com/nacional/noticia/adios-a-las-bolsas-plasticas-el-3-de-agosto-dejaran-de-entregarse-en-todo-tipo-de-comercios/AKIUBKGC2RFTJPCIDS5PIXWDIE/" target="_blank" rel="noopener">latercera.com</a></li>
+        <li>G5 Noticias. A ocho años de la Ley: ¿Ha servido la norma «no más bolsas plásticas»? Cifras del Ministerio del Medio Ambiente. <a href="https://g5noticias.cl/?p=895143" target="_blank" rel="noopener">g5noticias.cl</a></li>
+        <li>Pauta (2025). Día Internacional sin Bolsas Plásticas: alertan que aún se observa su uso en Chile. <a href="https://www.pauta.cl/sostenibilidad/2025/07/03/dia-internacional-sin-bolsas-plasticas-alertan-que-aun-se-observa-su-uso-en-chile.html" target="_blank" rel="noopener">pauta.cl</a></li>
+        <li>Fotografía de portada: <img class="thumb" src="img/fuente-pauta.jpg" alt="Captura del artículo de Radio Pauta con la fotografía de portada"></li>
+      </ul>
+    </section>
+  </main>
+</div>
+
+<footer>¡Ayudemos a las tortugas! © 2026 · Ciencias para la Ciudadanía 4° Medio · Instituto Cumbre de Cóndores Poniente</footer>
+
+<nav class="dock" role="tablist" aria-label="Secciones de la página">
+  <button class="d" role="tab" data-tab="inicio" aria-selected="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h5v-6h4v6h5V10"/></svg><span>Inicio</span></button>
+  <button class="d" role="tab" data-tab="video" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M10 9l5 3-5 3z"/></svg><span>Vídeo</span></button>
+  <button class="d" role="tab" data-tab="juego" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12a4 4 0 014 4v2a3 3 0 01-5 2l-1-1H8l-1 1a3 3 0 01-5-2v-2a4 4 0 014-4z"/><path d="M8 10v4M6 12h4"/><circle cx="16" cy="11" r=".8"/><circle cx="18" cy="13" r=".8"/></svg><span>Juego</span></button>
+  <button class="d" role="tab" data-tab="info" aria-selected="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.6" r=".6"/></svg><span>Más info</span></button>
+</nav>
+<script src="app.js"></script>
+</body>
+</html>
